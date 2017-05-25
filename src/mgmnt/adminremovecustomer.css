@@ -1,0 +1,24 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+#custremb{
+    -fx-background-color: tan;
+    -fx-background-image: url("rem.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 35 35;
+    -fx-background-position: left center;
+}
+#custremb:hover {
+    -fx-background-color: skyblue;
+}
+#showb{
+    -fx-background-color: white;
+    -fx-background-image: url("showdetails.png");
+    -fx-background-repeat: no-repeat;   
+    -fx-background-size: 110 35;
+    -fx-background-position: center center;
+}
+#showb:hover {
+    -fx-background-color: skyblue;
+}

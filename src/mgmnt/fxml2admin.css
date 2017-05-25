@@ -1,0 +1,75 @@
+/*
+ * Empty Stylesheet file.
+ */
+#anchorpane1{
+    -fx-background-image: url("backgroundleft.jpg");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 192 600;
+    -fx-background-position: center center;
+}
+#anchorpane2{
+    -fx-background-image: url("backgroundright.jpg");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 600 600;
+    -fx-background-position: center center;
+}
+#addemp{
+    -fx-background-color: tan;
+    -fx-background-image: url("addemp.png");
+    -fx-background-repeat: no-repeat;   
+    -fx-background-size: 35 35;
+    -fx-background-position: left center;
+}
+#addemp:hover {
+    -fx-background-color: skyblue;
+}
+#rememp{
+    -fx-background-color: tan;
+    -fx-background-image: url("removeemp.png");
+    -fx-background-repeat: no-repeat;   
+    -fx-background-size: 35 35;
+    -fx-background-position: left center;
+}
+#rememp:hover {
+    -fx-background-color: skyblue;
+}
+#adduser{
+    -fx-background-color: tan;
+    -fx-background-image: url("adduser.png");
+    -fx-background-repeat: no-repeat;   
+    -fx-background-size: 35 35;
+    -fx-background-position: left center;
+}
+#adduser:hover {
+    -fx-background-color: skyblue;
+}
+#remuser{
+    -fx-background-color: tan;
+    -fx-background-image: url("removeuser.png");
+    -fx-background-repeat: no-repeat;   
+    -fx-background-size: 35 35;
+    -fx-background-position: left center;
+}
+#remuser:hover {
+    -fx-background-color: skyblue;
+}
+#plan{
+    -fx-background-color: tan;
+    -fx-background-image: url("plan.png");
+    -fx-background-repeat: no-repeat;   
+    -fx-background-size: 35 35;
+    -fx-background-position: left center;
+}
+#plan:hover {
+    -fx-background-color: skyblue;
+}
+#logb{
+    -fx-background-color: tan;
+    -fx-background-image: url("exit.png");
+    -fx-background-repeat: no-repeat;   
+    -fx-background-size: 32 32;
+    -fx-background-position: center center;
+}
+#logb:hover {
+    -fx-background-color: skyblue;
+}

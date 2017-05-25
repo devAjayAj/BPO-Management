@@ -1,0 +1,43 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 14, 2016, 10:51:52 PM
+    Author     : Ajay
+*/
+#AnchorPane{
+    -fx-background-image: url("backgroundadmin.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 600 400;
+    -fx-background-position: center center;
+}
+#adminloginb{
+    -fx-background-color: tan;
+}
+#adminloginb:hover {
+    -fx-background-color: gainsboro;
+}
+#userl{
+   -fx-font-size: 12px;
+   -fx-font-family: "Arial";
+   -fx-fill: #818181;
+   -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+#passl{
+   -fx-font-size: 12px;
+   -fx-font-family: "Arial";
+   -fx-fill: #818181;
+   -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+#adminloginb{
+    -fx-background-color: white;
+    -fx-background-image: url("login.png");
+    -fx-background-repeat: no-repeat;   
+    -fx-background-size: 95 35;
+    -fx-background-position: center center;
+}
+#adminloginb:hover {
+    -fx-background-color: skyblue;
+}

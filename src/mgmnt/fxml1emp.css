@@ -1,0 +1,33 @@
+/*
+ * Empty Stylesheet file.
+ */
+#AnchorPane{
+    -fx-background-image: url("backgroundemp.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 600 400;
+    -fx-background-position: center center;
+}
+
+
+#userlemp{
+   -fx-font-size: 14px;
+   -fx-font-family: "Arial";
+   -fx-fill: #818181;
+   -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+#passlemp{
+   -fx-font-size: 14px;
+   -fx-font-family: "Arial";
+   -fx-fill: #818181;
+   -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+#emploginb{
+    -fx-background-color: white;
+    -fx-background-image: url("login.png");
+    -fx-background-repeat: no-repeat;   
+    -fx-background-size: 100 35;
+    -fx-background-position: center center;
+}
+#emploginb:hover {
+    -fx-background-color: skyblue;
+}

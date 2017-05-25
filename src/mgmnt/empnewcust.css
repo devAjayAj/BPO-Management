@@ -1,0 +1,39 @@
+/*
+ * Empty Stylesheet file.
+ */
+#anchorpane1{
+    -fx-background-image: url("backgroundemprest.jpg");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 600 600;
+    -fx-background-position: center center;
+}
+#plan{
+    -fx-background-color: tan;
+    -fx-background-image: url("plan.png");
+    -fx-background-repeat: no-repeat;   
+    -fx-background-size: 35 35;
+    -fx-background-position: right center;
+}
+#plan:hover {
+    -fx-background-color: skyblue;
+}
+#addcustb{
+    -fx-background-color: tan;
+    -fx-background-image: url("add.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 35 35;
+    -fx-background-position: left center;
+}
+#addcustb:hover {
+    -fx-background-color: skyblue;
+}
+#backb{
+    -fx-background-color: white;
+    -fx-background-image: url("back.png");
+    -fx-background-repeat: no-repeat;   
+    -fx-background-size: 35 35;
+    -fx-background-position: center center;
+}
+#backb:hover {
+    -fx-background-color: skyblue;
+}

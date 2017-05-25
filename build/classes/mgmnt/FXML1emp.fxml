@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mgmnt.Controller">
+   <columnConstraints>
+      <ColumnConstraints fillWidth="false" halignment="CENTER" hgrow="ALWAYS" minWidth="10.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints fillHeight="false" minHeight="10.0" valignment="CENTER" vgrow="ALWAYS" />
+   </rowConstraints>
+   <children>
+      <AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Button fx:id="emploginb" layoutX="322.0" layoutY="237.0" mnemonicParsing="false" onAction="#execlogin" prefHeight="35.0" prefWidth="100.0" />
+            <Label fx:id="userlemp" layoutX="185.0" layoutY="166.0" text="Username:" />
+            <Label fx:id="passlemp" layoutX="185.0" layoutY="200.0" text="Password:" />
+            <TextField fx:id="empname" layoutX="273.0" layoutY="162.0" />
+            <PasswordField fx:id="emppass" layoutX="273.0" layoutY="196.0" />
+         </children>
+         <stylesheets>
+            <URL value="@fxml1emp.css" />
+         </stylesheets>
+      </AnchorPane>
+   </children>
+</GridPane>

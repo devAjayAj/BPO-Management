@@ -1,0 +1,14 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+#addempb{
+    -fx-background-color: tan;
+    -fx-background-image: url("add.png");
+    -fx-background-repeat: no-repeat;   
+    -fx-background-size: 35 35;
+    -fx-background-position: left center;
+}
+#addempb:hover {
+    -fx-background-color: skyblue;
+}

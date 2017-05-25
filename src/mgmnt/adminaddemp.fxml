@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.Cursor?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="600.0" minWidth="600.0" prefHeight="600.0" prefWidth="600.0" stylesheets="@adminaddemp.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mgmnt.AdminaddempController">
+   <children>
+      <Label layoutX="147.0" layoutY="124.0" text="Employee Name:" />
+      <Label layoutX="147.0" layoutY="169.0" prefHeight="17.0" prefWidth="89.0" text="Employee ID:" />
+      <Label layoutX="147.0" layoutY="292.0" prefHeight="17.0" prefWidth="89.0" text="Address:" />
+      <Label layoutX="147.0" layoutY="255.0" prefHeight="17.0" prefWidth="89.0" text="Gender:" />
+      <TextField fx:id="empid" layoutX="325.0" layoutY="165.0" promptText="Employee ID" />
+      <TextField fx:id="empdes" layoutX="325.0" layoutY="210.0" promptText="Post at work" />
+      <TextField fx:id="empgen" layoutX="325.0" layoutY="251.0" promptText="Male or Female" />
+      <TextField fx:id="empaddrss" layoutX="325.0" layoutY="288.0" prefHeight="25.0" prefWidth="258.0" promptText="Residential Address" />
+      <Label layoutX="147.0" layoutY="329.0" prefHeight="17.0" prefWidth="89.0" text="E-Mail ID:" />
+      <Label layoutX="147.0" layoutY="375.0" prefHeight="17.0" prefWidth="89.0" text="Contact NO:" />
+      <TextField fx:id="empname" layoutX="325.0" layoutY="120.0" promptText="Employee Name" />
+      <Label layoutX="147.0" layoutY="214.0" prefHeight="17.0" prefWidth="89.0" text="Designation:" />
+      <TextField fx:id="empmail" layoutX="325.0" layoutY="325.0" promptText="Mail" />
+      <TextField fx:id="empphno" layoutX="325.0" layoutY="371.0" promptText="Phone Number" />
+      <Button fx:id="addempb" alignment="CENTER_RIGHT" layoutX="325.0" layoutY="474.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#addempdetails" prefHeight="35.0" prefWidth="90.0" text="       Add">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <Label layoutX="147.0" layoutY="422.0" text="Employee Password:" />
+      <PasswordField fx:id="emppass" layoutX="325.0" layoutY="418.0" promptText="Password" />
+   </children>
+</Pane>

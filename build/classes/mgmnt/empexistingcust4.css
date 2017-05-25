@@ -1,0 +1,23 @@
+/*
+ * Empty Stylesheet file.
+ */
+#backb{
+    -fx-background-color: white;
+    -fx-background-image: url("back.png");
+    -fx-background-repeat: no-repeat;   
+    -fx-background-size: 35 35;
+    -fx-background-position: center center;
+}
+#backb:hover {
+    -fx-background-color: skyblue;
+}
+#checkb{
+    -fx-background-color: white;
+    -fx-background-image: url("check.png");
+    -fx-background-repeat: no-repeat;   
+    -fx-background-size: 80 35;
+    -fx-background-position: center center;
+}
+#checkb:hover {
+    -fx-background-color: skyblue;
+}

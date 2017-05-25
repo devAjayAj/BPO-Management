@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<GridPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mgmnt.Controller">
+   <columnConstraints>
+      <ColumnConstraints fillWidth="false" halignment="CENTER" hgrow="ALWAYS" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints fillHeight="false" valignment="CENTER" vgrow="ALWAYS" />
+   </rowConstraints>
+   <children>
+      <AnchorPane id="AnchorPane" fx:id="main" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass">
+        <children>
+          <Button fx:id="adminb" blendMode="SRC_ATOP" layoutX="135.0" layoutY="150.0" mnemonicParsing="false" onAction="#adminb" prefHeight="100.0" prefWidth="100.0" text="" />
+            <Button fx:id="exec" layoutX="361.0" layoutY="150.0" mnemonicParsing="false" onAction="#empb" prefHeight="100.0" prefWidth="100.0" />
+            <Label fx:id="adml" layoutX="155.0" layoutY="122.0" text="ADMIN" />
+            <Label fx:id="empl" layoutX="362.0" layoutY="122.0" text="EMPLOYEE" />
+        </children>
+        <stylesheets>
+          <URL value="@fxml.css" />
+        </stylesheets>
+      </AnchorPane>
+   </children>
+</GridPane>

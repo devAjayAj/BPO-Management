@@ -1,0 +1,24 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+#disconnectb{
+    -fx-background-color: white;
+    -fx-background-image: url("disconnectb.jpg");
+    -fx-background-repeat: no-repeat;   
+    -fx-background-size: 78 27;
+    -fx-background-position: center center;
+}
+#disconnectb:hover {
+    -fx-background-color: skyblue;
+}
+#backb{
+    -fx-background-color: white;
+    -fx-background-image: url("back.png");
+    -fx-background-repeat: no-repeat;   
+    -fx-background-size: 35 35;
+    -fx-background-position: center center;
+}
+#backb:hover {
+    -fx-background-color: skyblue;
+}

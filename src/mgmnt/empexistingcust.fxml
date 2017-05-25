@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@empexistingcust.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mgmnt.EmpexistingcustController">
+   <children>
+      <Button fx:id="ok" layoutX="283.0" layoutY="212.0" mnemonicParsing="false" onAction="#next" prefHeight="35.0" prefWidth="35.0" />
+      <Label layoutX="251.0" layoutY="146.0" text="Enter Customer ID:" />
+      <TextField fx:id="custid" layoutX="238.0" layoutY="175.0" prefHeight="25.0" prefWidth="124.0" promptText="Exisitng customer ID" />
+      <Button fx:id="newexistback" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#newexistscreen" prefHeight="35.0" prefWidth="35.0" />
+   </children>
+</Pane>

@@ -1,0 +1,69 @@
+/*
+ * Empty Stylesheet file.
+ */
+#pane{
+    -fx-background-image: url("backgroundemprest.jpg");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 600 400;
+    -fx-background-position: center center;
+}
+#details{
+    -fx-background-color: white;
+    -fx-background-image: url("details.png");
+    -fx-background-repeat: no-repeat;   
+    -fx-background-size: 100 25;
+    -fx-background-position: center center;
+}
+#details:hover {
+    -fx-background-color: skyblue;
+}
+#custcomplaint{
+    -fx-background-color: tan;
+    -fx-background-image: url("complaint.jpg");
+    -fx-background-repeat: no-repeat;   
+    -fx-background-size: 30 30;
+    -fx-background-position: left center;
+}
+#custcomplaint:hover {
+    -fx-background-color: skyblue;
+}
+#custplanchange{
+    -fx-background-color: tan;
+    -fx-background-image: url("custplanchange.png");
+    -fx-background-repeat: no-repeat;   
+    -fx-background-size: 30 30;
+    -fx-background-position: left center;
+}
+#custplanchange:hover {
+    -fx-background-color: skyblue;
+}
+#custcomplaintstatus{
+    -fx-background-color: tan;
+    -fx-background-image: url("custcomplaintstatus.png");
+    -fx-background-repeat: no-repeat;   
+    -fx-background-size: 30 30;
+    -fx-background-position: left center;
+}
+#custcomplaintstatus:hover {
+    -fx-background-color: skyblue;
+}
+#custdisconnect{
+    -fx-background-color: tan;
+    -fx-background-image: url("custdisconnect.png");
+    -fx-background-repeat: no-repeat;   
+    -fx-background-size: 30 30;
+    -fx-background-position: left center;
+}
+#custdisconnect:hover {
+    -fx-background-color: skyblue;
+}
+#backb{
+    -fx-background-color: white;
+    -fx-background-image: url("back.png");
+    -fx-background-repeat: no-repeat;   
+    -fx-background-size: 35 35;
+    -fx-background-position: center center;
+}
+#backb:hover {
+    -fx-background-color: skyblue;
+}

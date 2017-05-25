@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@empexistingcust5.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mgmnt.EmpexistingcustController">
+   <children>
+      <Button fx:id="backb" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#back" prefHeight="35.0" prefWidth="35.0" />
+      <TextArea fx:id="disconnectreason" layoutX="163.0" layoutY="140.0" prefHeight="160.0" prefWidth="275.0" promptText="Reason for Applying Discoonect Request " />
+      <Label layoutX="163.0" layoutY="113.0" text="Reason:" />
+      <Button fx:id="disconnectb" layoutX="358.0" layoutY="317.0" mnemonicParsing="false" onAction="#disconnect" prefHeight="30.0" prefWidth="80.0" />
+   </children>
+</Pane>

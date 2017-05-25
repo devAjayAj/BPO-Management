@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.collections.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="600.0" minWidth="600.0" prefHeight="600.0" prefWidth="600.0" stylesheets="@adminaddcustomer.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mgmnt.AdminaddcustomerController">
+   <children>
+      <Label layoutX="147.0" layoutY="124.0" text="Customer Name:" />
+      <Label layoutX="147.0" layoutY="169.0" prefHeight="17.0" prefWidth="89.0" text="Customer ID:" />
+      <Label layoutX="147.0" layoutY="292.0" prefHeight="17.0" prefWidth="89.0" text="Address:" />
+      <Label layoutX="147.0" layoutY="255.0" prefHeight="17.0" prefWidth="89.0" text="City:" />
+      <TextField fx:id="custid" layoutX="325.0" layoutY="165.0" promptText="ID" />
+      <TextField fx:id="custstate" layoutX="325.0" layoutY="210.0" promptText="Residing state" />
+      <TextField fx:id="custcity" layoutX="325.0" layoutY="251.0" promptText="Residing City" />
+      <TextField fx:id="custaddress" layoutX="325.0" layoutY="288.0" prefHeight="25.0" prefWidth="258.0" promptText="Residential Address" />
+      <Label layoutX="147.0" layoutY="329.0" prefHeight="17.0" prefWidth="89.0" text="E-Mail ID:" />
+      <Label layoutX="147.0" layoutY="375.0" prefHeight="17.0" prefWidth="89.0" text="Contact NO:" />
+      <TextField fx:id="custname" layoutX="325.0" layoutY="120.0" promptText="Name of Customer" />
+      <Label layoutX="147.0" layoutY="214.0" prefHeight="17.0" prefWidth="89.0" text="State:" />
+      <TextField fx:id="custmail" layoutX="325.0" layoutY="325.0" promptText="Mail" />
+      <TextField fx:id="custphno" layoutX="325.0" layoutY="371.0" promptText="Mobile No." />
+      <Button fx:id="addempb" alignment="CENTER_RIGHT" layoutX="324.0" layoutY="463.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#addcustdetails" prefHeight="35.0" prefWidth="89.0" text="   Add">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <Label layoutX="147.0" layoutY="422.0" text="Opted Plan:" />
+      <ComboBox fx:id="custplan" layoutX="324.0" layoutY="418.0" prefHeight="25.0" prefWidth="71.0" promptText="Plan" visibleRowCount="5">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="999" />
+          <String fx:value="1299" />
+          <String fx:value="1599" />
+          <String fx:value="1999" />
+          <String fx:value="2499" />
+        </FXCollections>
+      </items>
+      </ComboBox>
+   </children>
+</Pane>

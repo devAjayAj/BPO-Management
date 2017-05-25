@@ -1,0 +1,13 @@
+/*
+ * Empty Stylesheet file.
+ */
+#planb{
+    -fx-background-color: tan;
+    -fx-background-image: url("plan.png");
+    -fx-background-repeat: no-repeat;   
+    -fx-background-size: 35 35;
+    -fx-background-position: left center;
+}
+#planb:hover {
+    -fx-background-color: skyblue;
+}
